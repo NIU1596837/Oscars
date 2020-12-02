@@ -23,8 +23,11 @@ case $opcio in
 4) 
 	echo "En desenvolupament";;
 0)
- sortir=1;;
+ 	sortir=1;;
 *)
-  echo "Error";;
+ 	echo "Error";;
+	Sleep 3
+	clear
 esac
+clear
 done
