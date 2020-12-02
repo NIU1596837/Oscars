@@ -25,9 +25,8 @@ case $opcio in
 0)
  	sortir=1;;
 *)
- 	echo "Error " $opcio " no valida";;
-	Sleep 3
-	clear
+ 	echo "Error  $opcio  no valida";
+	sleep 3;
+	clear;;
 esac
-clear
 done
