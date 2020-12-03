@@ -26,7 +26,16 @@ case $opcio in
 	echo sort -k2 oscars_age_male.csv
 	
 2) 
-	echo "En desenvolupament";;
+	echo "---------------------------------------------------------"
+	echo "Qui va guanyar ...?"
+	echo "2.1 Mostrar l’actor i l’actriu que van guanyar un any determinat."
+	echo Introdueix un any
+	read $any
+	grep "^$any"
+	
+	
+	echo "2.2 Mostrar els Oscars a millor actriu guanyats per una actriu determinada."
+	echo "2.3 Mostrar els Oscars a millor actriu o actor que ha obtingut una pel·lícula determinada."
 3) 
 	echo "En desenvolupament";;
 4) 
