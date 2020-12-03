@@ -15,7 +15,16 @@ read opcio
 
 case $opcio in
 1) 
-	echo "En desenvolupament";;
+	echo "Històric d'Oscars";
+	echo "\n"
+	echo     "1.1 Mostrar històric d’Oscars a millor actor (alfabètic)."
+	echo sort -k4 oscars_age_male.csv 
+	echo    "1.2 Mostrar històric d’Oscars a millor actriu (edat)"
+	echo sort -k3 oscars_age_female.csv
+	echo	"1.3 Mostrar històric d’Oscars (actors/actrius)."
+	echo sort -k2 oscars_age_female.csv
+	echo sort -k2 oscars_age_male.csv
+	
 2) 
 	echo "En desenvolupament";;
 3) 
